@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 import javax.swing.*;
 
 public class MergeSort {
-
+/*
     public void sort(List<Pelicula> arr, int izq, int der) {
         if (izq < der) {
            //Encuentra el punto medio del vector.
@@ -19,8 +19,8 @@ public class MergeSort {
             merge(arr,arr.get(izq).getAnio(), arr.get(centro).getAnio(), arr.get(der).getAnio());
         }
 
-    }
-    public void sort(int arr[], int izq, int der) {
+    }*/
+    public void sort(List<Pelicula> arr, int izq, int der) {
         if (izq < der) {
            //Encuentra el punto medio del vector.
             int centro = (izq + der) / 2;
